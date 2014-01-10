@@ -1,0 +1,36 @@
+.notification {
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform ease 350ms;
+    transition: transform ease 350ms;
+    -webkit-animation-delay: 100ms;
+    animation-delay: 100ms;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.notification.show {
+    display: block;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+.notification.success {
+    background: rgba(14, 156, 207, 0.75);
+}
+
+.notification.warning {
+    background: rgba(247, 154, 0, 0.75);
+}
+
+.notification.error {
+    background: rgba(207, 46, 14, 0.75);
+}
