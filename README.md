@@ -1,4 +1,3 @@
 notifications-test
 ==================
-
-Trying out the mobile notifications 
+ Quick example testing out [Mobile-Notifications](https://github.com/iOffice/mobile-notifications)
